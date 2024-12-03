@@ -1,0 +1,165 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('https://via.placeholder.com/1600x900') no-repeat center center;
+    background-size: cover;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+}
+
+.services-section .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.services-section .card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #e2e2e2;
+}
+
+
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.about-section h3 {
+    font-size: 1.75rem;
+    margin-top: 20px;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+/*services card css/
+
+/* Custom Styles */
+
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 3D Card Effects */
+.service-card {
+    perspective: 1000px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: rotateY(50deg) rotateX(50deg);
+}
+
+/* Card Body */
+.card-body {
+    width: 100%;
+    height: 295px;
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #202020;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+
+
+
+
+/* Custom Styles */
+
+
+
+/* Contact Form Section */
+.contact-section {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 60px 0;
+}
+
+/* 3D Effect Container */
+.contact-form-container {
+    perspective: 1000px; /* Creates a 3D effect */
+}
+
+.contact-form-container form {
+    transform-style: preserve-3d;
+    transform: rotateY(0deg); /* Apply initial 3D rotation */
+    transition: transform 0.5s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.contact-form-container form:hover {
+    transform: rotateY(50deg); /* Remove rotation on hover for a smooth effect */
+}
+
+.form-control {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.7);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #2f3133;
+    border-color: #007bff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0d0d0e;
+    border-color: #0d0d0e;
+}
+
+    
